@@ -1,4 +1,4 @@
-import store from "./store/store";
+import store from "./store/configureStore";
 import { addTask, removeTask, completeTask } from "./store/tasks/action";
 
 const unsubscribe = store.subscribe(() => {
